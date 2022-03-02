@@ -1,0 +1,14 @@
+<template>
+    <lightning-input label="Your Email:" onchange={handleChange}> </lightning-input>
+    <div class="slds-m-top_small slds-m-bottom_medium">
+        <h2 class="slds-text-heading_small slds-m-bottom_small">
+            Thanks for watching this movie. Submit your Email for a surprise!
+        </h2>
+        <!-- Success variant: Identifies a successful action -->
+        <lightning-button variant="success" label="Submit" title="Successful action" onclick={handleClick} class="slds-m-left_x-small"></lightning-button>
+    </div>
+
+    <div class="slds-m-vertical_medium">
+        <p><span class="slds-text-heading_small">{clickedButtonLabel}</span></p>
+    </div>
+</template>
